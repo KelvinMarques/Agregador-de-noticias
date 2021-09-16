@@ -1,0 +1,59 @@
+
+ a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+*{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(173, 173, 173);
+}
+#logo{
+    text-align: center;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4em;
+}
+
+/* FIM DO MENU */
+.container{
+    margin: 0;
+    padding: 0 3%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    /* margin: 0%; */ 
+}
+/* INICIO DAS TOP 5 NEWS */
+
+.five-news{
+    padding: 5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    /* border:5px black solid; */
+    margin: 0 0.3em;
+    background-color: rgba(146, 146, 146, 0.452);
+}
+.
